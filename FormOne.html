@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Form Excercise</title>
+        <style>
+            .firstBox {
+                flex: 1;
+                height: 50%;
+                width: 50%;
+                border: 1px solid cadetblue;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+<body>
+    <!-- If you click the "Submit" button, the form-data
+        will be sent to a page called "/action_page" -->
+    <form action="/action_page">
+        <h2>HTML Forms</h2>
+        <div class="firstBox">
+            <label for="firstName">First name:</label><br>
+            <input type="text" id="firstName"
+                name="firstName" value="Joel">
+        </div>
+        <div class="secondBox">
+            <label for="lastName">Last name:</label><br>
+            <input type="text" id="lastName"
+                name="lastName" value="Doe">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
