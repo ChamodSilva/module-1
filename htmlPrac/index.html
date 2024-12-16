@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>page title</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="changeHeadAside();">
+    <header><h1 id=greet>Header</h1></header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Articles</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <article>
+            <!--<img
+                height="300px"
+                src="https://th.bing.com/th?id=ORMS.a7beb3384c56e1c706424fc2fdaeaafc&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0"
+                alt="Porche vs Ferrari"
+            /> -->
+            <div class="article-container">
+                <h2>Article heading</h2>
+                <p>Paragraph...</p>
+                <a href="https://www.google.com/">More information...</a>
+            </div>
+            <form>
+                <input type="text" id="firstName" placeholder="First Name"><br>
+                <input type="text" id="lastName" placeholder="Last Name"><br>
+                <input type="text" id="address" placeholder="Address"><br>
+                <input type="button" value="Submit" onclick="displayInfo()">
+            </form>
+            <p id = "display"></p>
+        </article>
+        <aside id="aside">
+          <h2>Related</h2>
+          <ul>
+            <li><a href="#">Article 1</a></li>
+            <li><a href="#">Article 2</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    <footer>
+      <p>@copyright 2050 by nobody. all rights reversed</p>
+    </footer>
+    <script>
+        /*document.getElementById("header").innerText = "Hello JavaScript";
+        document.getElementById("aside").style.backgroundColor = "green";*/
+      
+    </script>
+  </body>
+</html>
